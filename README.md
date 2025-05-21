@@ -148,8 +148,8 @@ To gitlab.thga.de:besir.dincer/myproject-gl.git
 
 **Your PR/MR Links & Descriptions**
 
-* GitHub PR: *paste URL and a one-sentence summary*
-* GitLab MR: *paste URL and a one-sentence summary*
+* GitHub PR: *https://github.com/STEMgraph/7d3bb490-8826-464b-9e97-1f7703b2e40b/pull/1 – Added "Ich studiere an der THGA." to README.md in pp5-changes branch*
+* GitLab MR: *90 minuten waren hier zu ende*
 
 ---
 
