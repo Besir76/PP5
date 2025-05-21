@@ -119,6 +119,21 @@ To 128.140.85.215:~/repos/myproject.git
 **Your Commands & Output**
 
 ```bash
+# Push to GitHub
+git remote add github git@github.com:besir76/myproject-gh.git
+git push github master
+
+# Push to GitLab
+git remote add gitlab git@gitlab.thga.de:besir.dincer/myproject-gl.git
+git push gitlab master
+
+# Output
+To github.com:besir76/myproject-gh.git
+ * [new branch]      master -> master
+
+To gitlab.thga.de:besir.dincer/myproject-gl.git
+ * [new branch]      master -> master
+
 # Paste here the remote‐adding & push outputs
 ```
 
