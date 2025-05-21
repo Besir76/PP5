@@ -43,6 +43,22 @@ In this exercise you will:
 **Your Commands & Output**
 
 ```bash
+## Task 1: Local Git – Branching & Merging
+
+**Git-Befehle & Output:**
+
+```bash
+mkdir pp5-task1
+cd pp5-task1
+git init
+git checkout -b feature-1
+echo "PP5 Feature Branch – Ich arbeite an Task 1." > feature.txt
+git add feature.txt
+git commit -m "Add feature.txt with short description"
+git checkout -b master
+git merge feature-1
+git log --oneline --graph --all
+
 # Paste here the sequence of git commands you ran
 # and the relevant terminal output (e.g., branch listing, merge messages)
 ```
