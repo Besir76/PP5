@@ -62,6 +62,13 @@ git log --oneline --graph --all
 # Paste here the sequence of git commands you ran
 # and the relevant terminal output (e.g., branch listing, merge messages)
 ```
+Switched to a new branch 'feature-1'
+[feature-1 (root-commit) aa1be7b] Add feature.txt with short description
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+Switched to a new branch 'master'
+Already up to date.
+* aa1be7b (HEAD -> master, feature-1) Add feature.txt with short description
 
 ---
 
