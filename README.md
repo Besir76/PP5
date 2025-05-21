@@ -84,6 +84,19 @@ git log --oneline --graph --all
 **Your Commands & Output**
 
 ```bash
+# Push to SSH remote
+git remote add origin-ssh user67@128.140.85.215:~/repos/myproject.git
+git push origin-ssh master
+
+# Output:
+user67@128.140.85.215's password:
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To 128.140.85.215:~/repos/myproject.git
+ * [new branch]      master -> master
+
 # Paste here the push & clone commands and outputs
 ```
 
